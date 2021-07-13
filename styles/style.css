@@ -47,6 +47,61 @@ Player List
   margin-top: 0px;
 }
 
+/* ------------------------------
+    Highlights & Extra Section
+ ------------------------------*/
+.highlights-container {
+  display: flex;
+  justify-content: center;
+}
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 66px;
+  grid-column-gap: 100px;
+  margin: 150px 10% 0 10%;
+}
+.highlights-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0a0826;
+  margin: 0;
+}
+.highlight-details {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-top: 8px;
+}
+.anchor-tag {
+  text-decoration: none;
+  padding: 10px 24px;
+  background: #e02c6d;
+  font-weight: 500;
+  color: #fff;
+  /* border-radius: 30px; */
+  /* box-shadow: 0px 0px 10px 0px tomato; */
+  font-size: 16px;
+}
+.submit {
+  text-align: right;
+  margin: 15px;
+}
+.highlights-image img {
+  width: 100%;
+  height: 100%;
+}
+fieldset h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+label {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* ---------------
     Footer 
  ---------------*/
