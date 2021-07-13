@@ -46,3 +46,57 @@ Player List
   color: #6c6c6c;
   margin-top: 0px;
 }
+
+/* ---------------
+    Footer 
+ ---------------*/
+footer {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 65px;
+}
+footer img {
+  width: 485px;
+  height: 110px;
+}
+.fa-facebook-square.fbook,
+.fa-twitter.twitter,
+.fa-youtube.youtube,
+.fa-instagram-square.instagram {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.fa-facebook-square.fbook:hover {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #1877f2;
+}
+.fa-twitter.twitter:hover {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #52cbff;
+}
+.fa-youtube.youtube:hover {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #ff0000;
+}
+.fa-instagram-square.instagram:hover {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #5855ca;
+}
+footer .social-media {
+  margin-top: 0;
+}
+footer .copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+}
