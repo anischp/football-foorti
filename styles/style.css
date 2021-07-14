@@ -20,6 +20,28 @@ header {
   background-color: #2d25a0;
   margin-bottom: 70px;
 }
+nav {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 52px;
+  /* height: 100px; */
+}
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 36px;
+}
+nav a:hover {
+  padding: 10px 24px;
+  background: #e02c6d;
+}
 .banner-container {
   display: flex;
   justify-content: center;
@@ -28,7 +50,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 102px;
-  margin: 150px 10% 0 10%;
+  margin: 50px 10% 0 10%;
 }
 .banner-title h1 {
   font-weight: bold;
