@@ -216,3 +216,21 @@ footer .copyright {
   font-size: 18px;
   margin: 0;
 }
+
+/* -----------------------------------------------------------------------------------------------------------------
+    Media Queries
+ ----------------------------------------------------------------------------------------------------------------- */
+
+/* For Mobile Devices */
+@media only screen and (max-width: 688px) {
+  .player-container {
+    display: flex;
+    justify-content: center;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    /* grid-column-gap: 27px; */
+  }
+}
