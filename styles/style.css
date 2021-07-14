@@ -236,17 +236,17 @@ footer .copyright {
   .banner {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* grid-row-gap: 102px; */
+    grid-row-gap: 50px;
     margin-top: 50px;
   }
   .banner-image {
-    width: 90%;
-    height: 200px;
+    width: 330px;
+    height: 260px;
     transition: width 5s, height 5s;
   }
   .banner-image:hover {
-    width: 95%;
-    height: 250px;
+    width: 400px;
+    height: 300px;
   }
   /* Players */
   .player-container {
