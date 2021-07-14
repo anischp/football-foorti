@@ -31,6 +31,12 @@ nav {
   margin-top: 52px;
   /* height: 100px; */
 }
+.menu-bar {
+  display: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
 nav a {
   text-decoration: none;
   font-weight: 500;
@@ -227,6 +233,16 @@ footer .copyright {
     height: 100%;
     background-color: #2d25a0;
     margin-bottom: 47px;
+  }
+  /* Menu */
+  .menu-bar {
+    display: block;
+    /* font-weight: 500;
+    font-size: 16px;
+    color: #ffffff; */
+  }
+  .links {
+    display: none;
   }
   /* Banner */
   .banner-container {
