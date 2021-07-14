@@ -251,7 +251,7 @@ footer .copyright {
     margin-bottom: 50px;
   }
   footer img {
-    width: 275px;
-    height: 70px;
+    width: 70%;
+    /* height: 70px; */
   }
 }
