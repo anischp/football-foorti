@@ -234,12 +234,12 @@ footer .copyright {
     background-color: #2d25a0;
     margin-bottom: 47px;
   }
+  .nav-bar {
+    width: 90%;
+  }
   /* Menu */
   .menu-bar {
     display: block;
-    /* font-weight: 500;
-    font-size: 16px;
-    color: #ffffff; */
   }
   .links {
     display: none;
