@@ -240,13 +240,13 @@ footer .copyright {
     margin-top: 50px;
   }
   .banner-image {
-    width: 330px;
-    height: 260px;
+    width: 300px;
+    height: 230px;
     transition: width 5s, height 5s;
   }
   .banner-image:hover {
-    width: 400px;
-    height: 300px;
+    width: 330px;
+    height: 260px;
   }
   /* Players */
   .player-container {
