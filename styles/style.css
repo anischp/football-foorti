@@ -232,7 +232,6 @@ footer .copyright {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 20px;
-    /* grid-column-gap: 27px; */
   }
   /* Highlights & Extra Content */
   .highlights-container {
@@ -243,7 +242,16 @@ footer .copyright {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
-    /* grid-column-gap: 100px; */
-    /* margin: 150px 10% 0 10%; */
+    margin-top: 50px;
+  }
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 50px;
+  }
+  footer img {
+    width: 125px;
+    height: 30px;
   }
 }
